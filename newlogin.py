@@ -43,7 +43,7 @@ def register():
 def login():
   
     global login_screen
-    login_screen = Toplevel(main_screen)
+    login_screen = Toplevel(login_screen)
     login_screen.title("Login")
     login_screen.geometry("300x250")
     Label(login_screen, text="Please enter details below to login").pack()

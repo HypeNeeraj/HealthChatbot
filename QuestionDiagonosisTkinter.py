@@ -287,14 +287,8 @@ class MainForm(Frame):
         self.btnRegister.pack()
         self.lblTeam=Label(self, text="Made by:", bg="khaki", width = "250", height = "1",padx=10, pady=10, font=("Helvetica", 13))
         self.lblTeam.pack()
-        self.lblTeam1=Label(self, text="Anushka Bansal", bg="white", width = "250", height = "1", font=("Calibri", 13))
+        self.lblTeam1=Label(self, text="PINKI", bg="white", width = "250", height = "1", font=("Calibri", 13))
         self.lblTeam1.pack()
-        self.lblTeam2=Label(self, text="Shreya Sharma", bg="white", width = "250", height = "1", font=("Calibri", 13))
-        self.lblTeam2.pack()
-        self.lblTeam3=Label(self, text="Silvi", bg="white", width = "250", height = "1", font=("Calibri", 13))
-        self.lblTeam3.pack()
-        self.lblTeam3=Label(self, text="Ishika Agarwal", bg="white", width = "250", height = "1", font=("Calibri", 13))
-        self.lblTeam3.pack()
         
     def lblLogin_Click(self):
         self.destroyPackWidget(MainForm.main_Root)
